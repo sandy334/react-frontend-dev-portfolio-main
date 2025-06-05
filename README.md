@@ -33,7 +33,7 @@ A modern and dynamic portfolio website showcasing my professional journey, built
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/sandy334/react-frontend-dev-portfolio-main.git
 cd react-frontend-dev-portfolio-main
 ```
 
@@ -111,9 +111,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Sandesh H R**
 
-* Portfolio: [Your portfolio URL]
-* GitHub: [@yourgithub](your-github-url)
-* LinkedIn: [Your LinkedIn](your-linkedin-url)
+* Portfolio: [https://sandeshportfoliofrontend.netlify.app](https://sandeshportfoliofrontend.netlify.app)
+* GitHub: [@sandy334](https://github.com/sandy334)
+* LinkedIn: [Sandesh H R](https://www.linkedin.com/in/sandesh-hr-32262a220/)
 
 ## 🤝 Contributing
 
