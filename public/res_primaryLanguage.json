@@ -1,0 +1,110 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 Hi, I'm Sandesh HR! I'm a 4th-year Computer Science Engineering student passionate about Full Stack Development, AI-driven problem-solving, and ServiceNow development, with hands-on frontend experience from my 5-month tenure at Renocrew Solutions; currently expanding my backend and full-stack skills while learning ServiceNow Application Development and System Administration to enhance expertise in cloud-based enterprise solutions—always eager to learn, experiment, and build innovative solutions! 🚀",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "DripSneak",
+        "startDate": "2024",
+        "description": "E-commerce website for a sneaker brand DRPSNEAK built in ReactJs. ",
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p2.jpg"
+        ],
+        "url": "https://6638ff4c861482f97b4e0406--resilient-cendol-5ee238.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "Weather-application",
+        "startDate": "2023",
+        "description": "Weather application to get the weather of anyplace using weather api :)",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg"
+        ],
+        "url": "https://imaginative-dango-05f82c.netlify.app/",
+        "technologies": [
+         
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "To-do-list",
+        "startDate": "2023",
+        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com/sandy334/TAIRP/tree/master/to_d0",
+        "technologies": [
+           
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "RENOCREW SOLUTIONS",
+        "title": "Front-End Developer Intern",
+        "years": "10-January-2024 - 10-May-2024",
+        "mainTech": [
+          "React 10 January 2024"
+        ],
+        "technologies": [
+          "HTML",
+          "Bootstrap",
+          "CSS",
+          "JavaScript",
+          "ReactJs"
+        ]
+      }
+
+    ]
+  }
