@@ -122,6 +122,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## 🌟 Show your support
 
 Give a ⭐️ if you like this project!
+Happy coding
 
 ---
 Made with ❤️ by Sandesh H R
