@@ -35,7 +35,10 @@ class Header extends Component {
         .map((x) => [x.toUpperCase(), 1500])
         .flat();
 
-      var resume = this.props.sharedData.resume;
+      var resume = {
+        url: "https://drive.google.com/file/d/1BwnVkW7Yr1cWuv8gwUlnDaIKVf2S6y7l/view?usp=sharing",
+        fileName: "resume.pdf"
+      };
     }
 
     const HeaderTitleTypeAnimation = React.memo(
@@ -144,22 +147,24 @@ const styles = {
     position: "absolute",
     top: 20,
     right: 20,
-    padding: "15px 40px",
-    borderRadius: "50px",
-    background: "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
-    color: "#3a2e0d",
+    padding: "12px 30px",
+    borderRadius: "30px",
+    background: "rgba(255, 255, 255, 0.1)",
+    backdropFilter: "blur(5px)",
+    color: "#000000",
     fontWeight: "700",
-    fontSize: "18px",
+    fontSize: "16px",
     textDecoration: "none",
     cursor: "pointer",
-    boxShadow: "0 8px 15px rgba(253, 160, 133, 0.4)",
+    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
     transition: "all 0.3s ease",
     zIndex: 1000,
     userSelect: "none",
+    border: "1px solid rgba(255, 255, 255, 0.2)",
   },
   topRightButtonHover: {
-    background: "linear-gradient(135deg, #fda085 0%, #f6d365 100%)",
-    boxShadow: "0 15px 20px rgba(253, 160, 133, 0.6)",
-    transform: "translateY(-3px)",
+    background: "rgba(255, 255, 255, 0.15)",
+    boxShadow: "0 6px 8px rgba(0, 0, 0, 0.15)",
+    transform: "translateY(-2px)",
   },
 };

@@ -5,6 +5,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import { Icon } from "@iconify/react";
+import reactIcon from "@iconify/icons-logos/react";
 
 class Experience extends Component {
   render() {
@@ -30,6 +32,7 @@ class Experience extends Component {
         });
         return (
           <VerticalTimelineElement
+            key={i}
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
@@ -37,8 +40,20 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
-            key={i}
+            icon={
+              <Icon
+                icon={reactIcon}
+                style={{
+                  fontSize: "28px",
+                  color: "#ffffff",
+                  margin: "auto",
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                }}
+              />
+            }
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
               {mainTech}

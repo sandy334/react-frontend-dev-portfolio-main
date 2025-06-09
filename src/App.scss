@@ -223,9 +223,13 @@ header h1 {
 }
 
 .experience-icon {
-	font-size: 300%;
-	margin-top: 25%;
-	text-align: center;
+	color: #ffffff !important;
+	fill: #ffffff !important;
+	width: 28px !important;
+	height: 28px !important;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
 }
 
 .main-badge {

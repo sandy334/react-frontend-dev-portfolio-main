@@ -5,8 +5,7 @@ const ContactForm = () => {
   const containerStyle = {
     padding: '2rem',
     textAlign: 'center',
-    backgroundColor: 'var(--contact-bg)',
-    color: 'var(--contact-text)',
+    backgroundColor: 'var(--primary-background)',
     animation: 'fadeIn 1.5s ease-in-out',
   };
 
@@ -14,7 +13,6 @@ const ContactForm = () => {
     fontSize: '24px',
     marginBottom: '1rem',
     fontWeight: 'bold',
-    color: 'var(--main-text)',
   };
 
   const pillScrollStyle = {
@@ -32,24 +30,24 @@ const ContactForm = () => {
     display: 'inline-flex',
     alignItems: 'center',
     gap: '0.5rem',
-    backgroundColor: 'var(--pill-bg)',
+    backgroundColor: 'var(--primary-background)',
     padding: '12px 20px',
     borderRadius: '999px',
     fontWeight: '600',
-    color: 'var(--pill-text)',
+    color: '#000',
     textDecoration: 'none',
-    boxShadow: 'var(--pill-shadow)',
+    boxShadow: '0 4px 10px rgba(0, 0, 0, 0.15)',
     transition: 'all 0.3s ease',
     whiteSpace: 'nowrap',
   };
 
   const handleMouseEnter = (e) => {
-    e.currentTarget.style.backgroundColor = 'var(--pill-hover-bg)';
+    e.currentTarget.style.backgroundColor = 'var(--hover-color)';
     e.currentTarget.style.transform = 'translateY(-2px)';
   };
 
   const handleMouseLeave = (e) => {
-    e.currentTarget.style.backgroundColor = 'var(--pill-bg)';
+    e.currentTarget.style.backgroundColor = 'var(--primary-background)';
     e.currentTarget.style.transform = 'translateY(0px)';
   };
 
@@ -64,6 +62,30 @@ const ContactForm = () => {
 
           ::-webkit-scrollbar {
             display: none;
+          }
+
+          [data-theme="light"] {
+            --main-background: #f5f5f5;
+            --main-text: #2d2d2d;
+            --button-hover: #e0e0e0;
+            --contact-bg: #f5f5f5;
+            --contact-text: #2d2d2d;
+            --pill-bg: #ffffff;
+            --pill-text: #000000;
+            --pill-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            --pill-hover-bg: #e0e0e0;
+          }
+
+          [data-theme="dark"] {
+            --main-background: #2d2d2d;
+            --main-text: #ffffff;
+            --button-hover: #3d3d3d;
+            --contact-bg: #1a1a1a;
+            --contact-text: #e0e0e0;
+            --pill-bg: #2d2d2d;
+            --pill-text: #e0e0e0;
+            --pill-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            --pill-hover-bg: #383838;
           }
         `}
       </style>

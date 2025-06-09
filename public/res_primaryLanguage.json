@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 Hi, I'm Sandesh HR! I'm a 4th-year Computer Science Engineering student passionate about Full Stack Development, AI-driven problem-solving, and ServiceNow development, with hands-on frontend experience from my 5-month tenure at Renocrew Solutions; currently expanding my backend and full-stack skills while learning ServiceNow Application Development and System Administration to enhance expertise in cloud-based enterprise solutions—always eager to learn, experiment, and build innovative solutions! 🚀",
+      "description": "👋 Hi, I'm Sandesh HR! I'm a 4th-year Computer Science Engineering student passionate about Full Stack Development and AI-driven problem-solving, with hands-on frontend experience from my 5-month tenure at Renocrew Solutions; currently expanding my backend and full-stack skills to build innovative solutions—always eager to learn, experiment, and create impactful applications! 🚀",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -10,6 +10,38 @@
       }
     },
     "projects": [
+      {
+        "title": "Breast cancer prediction and detection",
+        "startDate": "2025",
+        "description": "A machine learning web app for breast cancer prediction and detection using Python (scikit-learn) for the backend and React for the frontend. The app allows users to input medical data and receive predictions about breast cancer risk, providing an interactive and user-friendly interface for early detection.",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p1.jpg"
+        ],
+        "url": "https://breast-cancer-prediction-detection.onrender.com/",
+        "technologies": [
+            {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+            },
+            {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+            },
+            {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+            },
+            {
+            "class": "devicon-python-plain",
+            "name": "Python"
+            },
+            {
+            "class": "devicon-react-original",
+            "name": "React"
+            }
+        ]
+      },
       {
         "title": "DripSneak",
         "startDate": "2024",
@@ -49,31 +81,6 @@
         "url": "https://imaginative-dango-05f82c.netlify.app/",
         "technologies": [
          
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "To-do-list",
-        "startDate": "2023",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com/sandy334/TAIRP/tree/master/to_d0",
-        "technologies": [
-           
           {
             "class": "devicon-html5-plain",
             "name": "HTML"
